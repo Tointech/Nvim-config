@@ -5,5 +5,9 @@ require('colorschemes-config.nightfox') -- Theme
 require('nvim-tree-config') -- File browser
 
 -- LSP
-require('lsp-config.language-servers') -- :LspInfo
+-- :LspInfo
+require('lsp-config.language-servers')
+require('lsp-config.lspsaga')
+require('lsp-config.completion')
+
 -- Edit file :edit <pwd>
