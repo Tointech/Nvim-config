@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
         'kyazdani42/nvim-web-devicons', -- File icons
         },
     }
+    use 'neovim/nvim-lspconfig' -- Language Server Protocol
 end)
 
 -- :PackerSync
