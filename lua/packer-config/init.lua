@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
     use("lukas-reineke/indent-blankline.nvim") -- Indent guide
 	use("akinsho/toggleterm.nvim") -- Toggle terminal
     use("numToStr/Comment.nvim") -- Nvim comment
+    use("startup-nvim/startup.nvim") -- Nvim starting windows
 
     -- LSP
 	use("neovim/nvim-lspconfig")

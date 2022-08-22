@@ -11,6 +11,7 @@ require('autopairs-config') -- Autopairs
 require('indent-blankline-config') -- Indent guides
 require('toggleterm-config') -- Toggle terminal
 require('comment-nvim-config') -- Comment
+require('startup-config') -- Starting windows
 
 -- LSP
 -- :LspInfo

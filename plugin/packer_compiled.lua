@@ -199,6 +199,11 @@ _G.packer_plugins = {
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim.git"
   },
+  ["startup.nvim"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/startup.nvim",
+    url = "https://github.com/startup-nvim/startup.nvim.git"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/telescope.nvim",
