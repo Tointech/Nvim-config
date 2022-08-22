@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim.git"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/LuaSnip",
