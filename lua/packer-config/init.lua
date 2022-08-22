@@ -15,7 +15,8 @@ return require('packer').startup(function(use)
         'nvim-telescope/telescope.nvim', -- Telescope
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-    use("windwp/nvim-autopairs")
+    use("windwp/nvim-autopairs") -- Autopairs
+    use("lukas-reineke/indent-blankline.nvim") -- Indent guide
 
     -- LSP
 	use("neovim/nvim-lspconfig")

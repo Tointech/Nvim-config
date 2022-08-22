@@ -8,6 +8,7 @@ require('lualine-config') -- Lualine
 require('barbar-config') -- Barbar
 require('treesitter-config') -- Treesitter
 require('autopairs-config') -- Autopairs
+require('indent-blankline-config') -- Indent guides
 
 -- LSP
 -- :LspInfo
