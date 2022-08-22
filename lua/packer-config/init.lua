@@ -1,6 +1,7 @@
 return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim' -- Packer plugin manager
     use 'EdenEast/nightfox.nvim' -- Theme
+    use 'norcalli/nvim-colorizer.lua' -- Colorizer
     use {
         'kyazdani42/nvim-tree.lua', -- File browser
         requires = {
@@ -14,6 +15,7 @@ return require('packer').startup(function(use)
         'nvim-telescope/telescope.nvim', -- Telescope
         requires = { {'nvim-lua/plenary.nvim'} }
     }
+    use("windwp/nvim-autopairs")
 
     -- LSP
 	use("neovim/nvim-lspconfig")

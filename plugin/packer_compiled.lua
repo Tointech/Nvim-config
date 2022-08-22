@@ -109,10 +109,20 @@ _G.packer_plugins = {
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim.git"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs.git"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp.git"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua.git"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
