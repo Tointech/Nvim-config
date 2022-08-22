@@ -16,7 +16,6 @@ return require('packer').startup(function(use)
 	use("L3MON4D3/LuaSnip") -- Snippets plugin
 	use("onsails/lspkind-nvim") -- Vscode-like pictograms
 	use("williamboman/nvim-lsp-installer") -- Companion plugin for lsp-config
-	use("jose-elias-alvarez/null-ls.nvim") -- Inject lsp diagnistocs, formattings, code actions
 	use("tami5/lspsaga.nvim") -- Icons for LSP diagnostics
 end)
 
