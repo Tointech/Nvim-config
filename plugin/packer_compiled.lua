@@ -72,62 +72,77 @@ _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/LuaSnip",
-    url = "https://github.com/L3MON4D3/LuaSnip"
+    url = "https://github.com/L3MON4D3/LuaSnip.git"
+  },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim.git"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
-    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp.git"
   },
   cmp_luasnip = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+    url = "https://github.com/saadparwaiz1/cmp_luasnip.git"
   },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
-    url = "https://github.com/onsails/lspkind-nvim"
+    url = "https://github.com/onsails/lspkind-nvim.git"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
-    url = "https://github.com/tami5/lspsaga.nvim"
+    url = "https://github.com/tami5/lspsaga.nvim.git"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim.git"
   },
   ["nightfox.nvim"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
+    url = "https://github.com/EdenEast/nightfox.nvim.git"
   },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-    url = "https://github.com/hrsh7th/nvim-cmp"
+    url = "https://github.com/hrsh7th/nvim-cmp.git"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
-    url = "https://github.com/williamboman/nvim-lsp-installer"
+    url = "https://github.com/williamboman/nvim-lsp-installer.git"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
+    url = "https://github.com/neovim/nvim-lspconfig.git"
+  },
+  ["nvim-notify"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-notify",
+    url = "https://github.com/rcarriga/nvim-notify.git"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/kyazdani42/nvim-tree.lua"
+    url = "https://github.com/kyazdani42/nvim-tree.lua.git"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
+    url = "https://github.com/kyazdani42/nvim-web-devicons.git"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/packer.nvim",
-    url = "https://github.com/wbthomason/packer.nvim"
+    url = "https://github.com/wbthomason/packer.nvim.git"
   }
 }
 

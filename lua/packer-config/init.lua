@@ -7,6 +7,9 @@ return require('packer').startup(function(use)
         'kyazdani42/nvim-web-devicons', -- File icons
         },
     }
+    use 'nvim-lualine/lualine.nvim' -- Nvim lualine
+    use 'rcarriga/nvim-notify' -- Nvim notify
+    use  'romgrk/barbar.nvim' -- Barbar
 
     -- LSP
 	use("neovim/nvim-lspconfig")

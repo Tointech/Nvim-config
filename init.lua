@@ -3,6 +3,8 @@ require('packer-config')
 require('mappings') -- Mapping keys
 require('colorschemes-config.nightfox') -- Theme
 require('nvim-tree-config') -- File browser
+require('lualine-config') -- Lualine
+require('barbar-config') -- Barbar
 
 -- LSP
 -- :LspInfo
