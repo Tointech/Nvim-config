@@ -134,6 +134,31 @@ _G.packer_plugins = {
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua.git"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter.git"
+  },
+  ["nvim-treesitter-refactor"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-treesitter-refactor",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter-refactor.git"
+  },
+  ["nvim-treesitter-textobjects"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-treesitter-textobjects",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects.git"
+  },
+  ["nvim-ts-context-commentstring"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
+    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring.git"
+  },
+  ["nvim-ts-rainbow"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
+    url = "https://github.com/p00f/nvim-ts-rainbow.git"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -143,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim.git"
+  },
+  playground = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/playground",
+    url = "https://github.com/nvim-treesitter/playground.git"
   }
 }
 

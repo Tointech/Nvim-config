@@ -5,6 +5,7 @@ require('colorschemes-config.nightfox') -- Theme
 require('nvim-tree-config') -- File browser
 require('lualine-config') -- Lualine
 require('barbar-config') -- Barbar
+require('treesitter-config') -- Treesitter
 
 -- LSP
 -- :LspInfo

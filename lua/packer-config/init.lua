@@ -20,6 +20,17 @@ return require('packer').startup(function(use)
 	use("onsails/lspkind-nvim") -- Vscode-like pictograms
 	use("williamboman/nvim-lsp-installer") -- Companion plugin for lsp-config
 	use("tami5/lspsaga.nvim") -- Icons for LSP diagnostics
+
+	-- Treesitter & treesitter modules/plugins
+	use {
+        "nvim-treesitter/nvim-treesitter", -- Treesitter
+        run = ":TSUpdate" }
+	use("nvim-treesitter/nvim-treesitter-textobjects") -- Textobjects
+	use("nvim-treesitter/nvim-treesitter-refactor")
+	use("p00f/nvim-ts-rainbow")
+	use("nvim-treesitter/playground")
+	use("JoosepAlviste/nvim-ts-context-commentstring")
+
 end)
 
 -- :PackerSync
