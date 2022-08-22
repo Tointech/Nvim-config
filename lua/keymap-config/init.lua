@@ -37,13 +37,13 @@ map("n", "<leader>gs", ":Telescope git_status<cr>", opts)
 -- To exit telescope: Esc Esc 
 
 -- Toggle terminal: <C-\>
--- Multiple terminal: 2<C-\>, 3<C-\>  
+-- Multiple terminal: 2<C-\>, 3<C-\>
 
 -- Comment (Normal Mode)
 -- Toggles the current line using linewise/blockwise comment: gcc/gbc
 -- Toggles multiple lines using line using linewise/blockwise: [count]gcc/gbc
 
--- Mapping key
+-- Mapping key meaning
 -- <leader>: \ (backslash)
 -- <A-1>: Alt 1
 -- <C-p>: Ctrl p

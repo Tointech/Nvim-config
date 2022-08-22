@@ -15,31 +15,31 @@ return require('packer').startup(function(use)
         'nvim-telescope/telescope.nvim', -- Telescope
         requires = { {'nvim-lua/plenary.nvim'} }
     }
-    use("windwp/nvim-autopairs") -- Autopairs
-    use("lukas-reineke/indent-blankline.nvim") -- Indent guide
-	use("akinsho/toggleterm.nvim") -- Toggle terminal
-    use("numToStr/Comment.nvim") -- Nvim comment
-    use("startup-nvim/startup.nvim") -- Nvim starting windows
+    use 'windwp/nvim-autopairs' -- Autopairs
+    use 'lukas-reineke/indent-blankline.nvim' -- Indent guide
+	use 'akinsho/toggleterm.nvim' -- Toggle terminal
+    use 'numToStr/Comment.nvim' -- Nvim comment
+    use 'startup-nvim/startup.nvim' -- Nvim starting windows
 
     -- LSP
-	use("neovim/nvim-lspconfig")
-	use("hrsh7th/nvim-cmp") -- Autocompletion plugin
-	use("hrsh7th/cmp-nvim-lsp") -- LSP source for nvim-cmp
-	use("saadparwaiz1/cmp_luasnip") -- Snippets source for nvim-cmp
-	use("L3MON4D3/LuaSnip") -- Snippets plugin
-	use("onsails/lspkind-nvim") -- Vscode-like pictograms
-	use("williamboman/nvim-lsp-installer") -- Companion plugin for lsp-config
-	use("tami5/lspsaga.nvim") -- Icons for LSP diagnostics
+	use 'neovim/nvim-lspconfig'
+	use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
+	use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
+	use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
+	use 'L3MON4D3/LuaSnip' -- Snippets plugin
+	use 'onsails/lspkind-nvim' -- Vscode-like pictograms
+	use 'williamboman/nvim-lsp-installer' -- Companion plugin for lsp-config
+	use 'tami5/lspsaga.nvim' -- Icons for LSP diagnostics
 
 	-- Treesitter & treesitter modules/plugins
 	use {
-        "nvim-treesitter/nvim-treesitter", -- Treesitter
-        run = ":TSUpdate" }
-	use("nvim-treesitter/nvim-treesitter-textobjects") -- Textobjects
-	use("nvim-treesitter/nvim-treesitter-refactor")
-	use("p00f/nvim-ts-rainbow")
-	use("nvim-treesitter/playground")
-	use("JoosepAlviste/nvim-ts-context-commentstring")
+        'nvim-treesitter/nvim-treesitter', -- Treesitter
+        run = ':TSUpdate' }
+	use 'nvim-treesitter/nvim-treesitter-textobjects' -- Textobjects
+	use 'nvim-treesitter/nvim-treesitter-refactor'
+	use 'p00f/nvim-ts-rainbow'
+	use 'nvim-treesitter/playground'
+	use 'JoosepAlviste/nvim-ts-context-commentstring'
 
 end)
 
