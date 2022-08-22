@@ -36,6 +36,8 @@ map("n", "<leader>gc", ":Telescope git_commits<cr>", opts)
 map("n", "<leader>gs", ":Telescope git_status<cr>", opts)
 -- To exit telescope: Esc Esc 
 
+-- Toggle terminal: <C-\>
+-- Multiple terminal: 2<C-\>, 3<C-\>  
 
 -- Mapping key
 -- <leader>: \ (backslash)

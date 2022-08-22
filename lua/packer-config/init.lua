@@ -17,6 +17,7 @@ return require('packer').startup(function(use)
     }
     use("windwp/nvim-autopairs") -- Autopairs
     use("lukas-reineke/indent-blankline.nvim") -- Indent guide
+	use("akinsho/toggleterm.nvim") -- Toggle terminal
 
     -- LSP
 	use("neovim/nvim-lspconfig")
