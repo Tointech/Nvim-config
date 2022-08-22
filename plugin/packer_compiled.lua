@@ -173,6 +173,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tointech/.local/share/nvim/site/pack/packer/start/playground",
     url = "https://github.com/nvim-treesitter/playground.git"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim.git"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/tointech/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim.git"
   }
 }
 

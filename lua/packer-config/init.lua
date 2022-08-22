@@ -10,6 +10,10 @@ return require('packer').startup(function(use)
     use 'nvim-lualine/lualine.nvim' -- Nvim lualine
     use 'rcarriga/nvim-notify' -- Nvim notify
     use  'romgrk/barbar.nvim' -- Barbar
+    use {
+        'nvim-telescope/telescope.nvim', -- Telescope
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
 
     -- LSP
 	use("neovim/nvim-lspconfig")

@@ -27,6 +27,16 @@ map("n", "<leader>bb", ":BufferOrderByBufferNumber<CR>", opts)
 map("n", "<leader>bd", ":BufferOrderByDirectory<CR>", opts)
 map("n", "<leader>bl", ":BufferOrderByLanguage<CR>", opts)
 
+-- Telescope mappings
+map("n", "<leader>ff", ":Telescope find_files<cr>", opts)
+map("n", "<leader>fg", ":Telescope live_grep<cr>", opts)
+map("n", "<leader>fb", ":Telescope buffers<cr>", opts)
+-- Telescope git
+map("n", "<leader>gc", ":Telescope git_commits<cr>", opts)
+map("n", "<leader>gs", ":Telescope git_status<cr>", opts)
+-- To exit telescope: Esc Esc 
+
+
 -- Mapping key
 -- <leader>: \ (backslash)
 -- <A-1>: Alt 1
